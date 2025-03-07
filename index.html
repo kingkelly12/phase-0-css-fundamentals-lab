@@ -3,21 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <title>Exceptional Realty Group - Luxury Homes - About</title>
-    <!-- Don't forget to link your CSS file! -->
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header>
-      <!-- logo -->
+      <img src="">
       <h1>Exceptional Realty Group</h1>
 
-      <nav>
-        <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
-      </nav>
+      <div class="nav">
+        <nav>
+          <a href="index.html" style="background-color: aqua;">About</a> <a href="new-properties.html" style="background-color: aqua;">New Properties</a> <a href="real-estate-listings.html" style="background-color: aqua;">Listings</a> <a href="market-report.html" style="background-color: aqua;">Market Report</a> <a href="contact.html" style="background-color: aqua;">Contact</a> <a href="http://hud.gov" target="_blank" style="background-color: aqua;">H.U.D.</a>
+        </nav>
+      </div>
     </header>
 
     <section id="featured-property">
       <figure>
-        <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
+        <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group" class="image">
         <figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards.</figcaption>
       </figure>
 
@@ -25,8 +27,9 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
     </section>
 
+   <footer> 
     <section id="details">
-      <div>
+      <div style="text-align: center;">
         <h3>Contact</h3>
         <p>
           <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
@@ -62,5 +65,6 @@
         </p>
       </div>
     </section>
+  </footer>
   </body>
 </html>
